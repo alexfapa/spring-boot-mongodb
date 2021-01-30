@@ -8,5 +8,5 @@ public class SpringbootmongodbApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootmongodbApplication.class, args);
-	}
+	} 
 }
