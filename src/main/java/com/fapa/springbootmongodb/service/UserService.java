@@ -43,8 +43,7 @@ public class UserService {
 		findById(obj.getId());
 		User newObj = obj;
 		updateData(newObj, obj);
-		return repo.save(newObj);
-		
+		return repo.save(newObj); 		
 	}
 	
 	private void updateData(User newObj, User obj) {
